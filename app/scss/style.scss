@@ -1,0 +1,44 @@
+@import '_variables.scss';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//1. Variables below
+$primary-color: #660000;
+$secondary-color: #ffffe6;
+$font-body: Times, serif;
+$font-headings: Arial, sans-serif;
+
+// 3. Adding a mixin to deal with hovers, changing color and font size
+@mixin hoverChange ($color){
+  font-size: 110%;
+  color: $color;
+}
+
+body {
+  background: $secondary-color;
+  color: black;
+  font-family: $font-body;
+}
+
+//2. Nesting
+.nav {
+    background: $primary-color;
+  a{
+    color: $secondary-color;
+  }
+  a:hover {
+    //calling on the mixin for hovers
+    @include hoverChange(#ffff00);
+  }
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #bfbfbf;
+  font-family: $font-headings;
+}
+.bar {
+  background-color: $primary-color;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
