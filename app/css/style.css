@@ -7202,3 +7202,6 @@ body {
 h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: Arial, sans-serif; }
+
+.dogs-list {
+  border: 2px solid black; }
