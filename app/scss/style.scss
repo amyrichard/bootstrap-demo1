@@ -3,8 +3,11 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 //1. Variables below
-$primary-color: #660000;
-$secondary-color: #ffffe6;
+$primary-color: #DD1C1A;
+$secondary-color: #F0C808;
+$almost-white:#F2F4F3;
+$dark-blue: #086788;
+$light-blue: #06AED5;
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
 
@@ -15,7 +18,7 @@ $font-headings: Arial, sans-serif;
 }
 
 body {
-  background: $secondary-color;
+  background: $light-blue;
   color: black;
   font-family: $font-body;
 }
@@ -24,7 +27,7 @@ body {
 .nav {
     background: $primary-color;
   a{
-    color: $secondary-color;
+    color: white;
   }
   a:hover {
     //calling on the mixin for hovers
@@ -35,10 +38,4 @@ body {
 h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: $font-headings;
-}
-.bar {
-  background-color: $primary-color;
-  height: 30px;
-  margin-top: 5px;
-  margin-bottom: 10px;
 }

@@ -7187,14 +7187,14 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  background: #ffffe6;
+  background: #06AED5;
   color: black;
   font-family: Times, serif; }
 
 .nav {
-  background: #660000; }
+  background: #DD1C1A; }
   .nav a {
-    color: #ffffe6; }
+    color: white; }
   .nav a:hover {
     font-size: 110%;
     color: #ffff00; }
@@ -7202,9 +7202,3 @@ body {
 h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: Arial, sans-serif; }
-
-.bar {
-  background-color: #660000;
-  height: 30px;
-  margin-top: 5px;
-  margin-bottom: 10px; }
