@@ -377,11 +377,11 @@ mark,
   margin-bottom: 1rem;
   font-size: 1.25rem; }
 
-.blockquote-footer {
+.blockquote-footer, blockquote .blockquote-footer .cite {
   display: block;
   font-size: 80%;
   color: #6c757d; }
-  .blockquote-footer::before {
+  .blockquote-footer::before, blockquote .blockquote-footer .cite::before {
     content: "\2014\00A0"; }
 
 .img-fluid {
@@ -7205,3 +7205,72 @@ h1 {
 
 .dogs-list {
   border: 2px solid black; }
+
+form p {
+  text-align: left;
+  font-size: 1.5em;
+  color: white; }
+
+.jumbotron p {
+  text-align: left;
+  font-size: 1.1em;
+  color: #af1615; }
+
+.jumbotron {
+  background-color: #dcf8fe; }
+  .jumbotron h1 {
+    color: #DD1C1A;
+    font-size: 2.5em;
+    font-weight: 500; }
+
+.greeting {
+  padding-top: 2em;
+  padding-bottom: 3em; }
+  .greeting .card {
+    margin-top: 2em;
+    background-color: white;
+    border: dashed 1px #DD1C1A; }
+    .greeting .card .card-header h5 a {
+      color: #DD1C1A; }
+
+.card-body ul {
+  list-style-type: none; }
+
+blockquote {
+  padding-bottom: 1.2em; }
+  blockquote .blockquote-footer, blockquote .blockquote-footer .cite {
+    color: black;
+    font-size: 1em; }
+    blockquote .blockquote-footer .cite {
+      padding-bottom: 2em; }
+
+.mb-0 {
+  font-size: 1.1em;
+  color: white; }
+
+.btn {
+  background-color: #DD1C1A;
+  border: white;
+  color: white; }
+
+.btn:hover {
+  background-color: #260505;
+  color: white; }
+
+.btn:active {
+  background-color: #333333;
+  border: black; }
+
+.row {
+  padding-bottom: 2em; }
+
+.images {
+  padding-bottom: 2em; }
+  .images h2 {
+    text-align: center;
+    color: white; }
+
+.copy {
+  padding-top: 1.5em;
+  text-align: center;
+  color: black; }
