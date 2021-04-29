@@ -4,36 +4,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
-<body class="container">
-    <header>
-        <h1>WeinerWorks</h1>
 
-          <ul class="nav nav-tabs">
+<body>
+    <header>
+      <nav>
+        <ul class="nav nav-tabs">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="menu.html">Menu</a>
+          <li class="nav-item-active">
+            <a class="nav-link active" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
+      </nav>
     </header>
-    <main>
-        <h4>Our Menu</h4>
-        <ul class="dogs-list">
-          <li>Jumbo Dog</li>
-          <li>Mega Dog</li>
-          <li>Super Dog</li>
-        </ul>
-    </main>
 
-    <footer>&#169; 2021</footer>
+    <main class = "container">
+    <section class = "greeting">
+      <div class="shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="jumbotron">
+          <h1 class="display-3">Weinerworks Menu</h1>
+
+
+      <!-- w3schools collapse example -->
+      <div class="panel-group">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" href="#collapse1">Beer Steamed All Beef Hot Dogs</a>
+            </h4>
+          </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1. Plain Dog</td>
+                <td>$6.09</td>
+              </tr>
+              <tr>
+                <td>2. Mustard Dog</td>
+                <td>$6.09</td>
+              </tr>
+              <tr>
+                <td>3. Mustard and Relish Dog</td>
+                <td>$6.29</td>
+              </tr>
+                <td>4. Mustard, Relish, Onion, and Tomato Dog</td>
+                <td>$7.15</td>
+            </tr>
+            <tr>
+              <td>5. Mustard and Onion Dog</td>
+              <td>$6.29</td>
+            </tr>
+            <tr>
+              <td>6. Chili Dog</td>
+              <td>$7.10</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse2">Sides</a>
+          </h4>
+        </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>Coleslaw</td>
+              <td>$2.00</td>
+            </tr>
+            <tr>
+              <td>Chili Cheese Corn Dog</td>
+              <td>$4.95</td>
+            </tr>
+            <tr>
+              <td>Potato Chips</td>
+              <td>$1.75</td>
+            </tr>
+            <tr>
+              <td>Chili-Cheese-Onion Cup</td>
+              <td>$3.70</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">Drinks</a>
+        </h4>
+      </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <table class="table">
+        <tbody>
+          <tr>
+
+            <td>Soda</td>
+            <td>$1.49</td>
+          </tr>
+          <tr>
+            <td>Apple Juice</td>
+            <td>$2.25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <ul class="nav justify-content-center nav-justified">
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><i class="fab fa-instagram fa-1x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><i class="fab fa-twitter fa-1x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><i class="fab fa-facebook fa-1x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><i class="fab fa-yelp fa-1x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><i class="fab fa-youtube fa-1x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!"><i class="fa fa-envelope fa-1x"></i></a>
+          </li>
+        </ul>
+        <p class = "copy">&copy; 2021 Weiner Works</p>
+      </div>
+    </footer>
 
     <script src="/js/jquery.min.js"></script>
     <script src="/js/popper.min.js"></script>
-    <script src="/js/booststrap.min.js"></script>
-</body>
-</html>
+    <script src="/js/bootstrap.min.js"></script>
+    </main>
+  </body>
+  </html>

@@ -11,7 +11,7 @@ $light-blue: #06AED5;
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
 
-// 3. Adding a mixin to deal with hovers, changing color and font size
+//  Mixin to deal with nav hovers, changing color and font size
 @mixin hoverChange ($color){
   font-size: 110%;
   color: $color;
@@ -23,7 +23,6 @@ body {
   font-family: $font-body;
 }
 
-//2. Nesting
 .nav {
     background: $primary-color;
   a{
@@ -39,6 +38,123 @@ h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: $font-headings;
 }
-.dogs-list {
-  border: 2px solid black;
+.panel-title a{
+  color:$dark-blue;
 }
+.panel-title a:hover{
+  color:$light-blue;
+}
+
+// HOME PAGE STYLES  --------
+// Newsletter signup
+form p {
+  text-align: left;
+  font-size: 1.5em;
+  color: white;
+}
+
+// Paragraph text on home page
+.jumbotron p {
+  text-align: left;
+  font-size: 1.1em;
+  color: darken($primary-color, 10%);
+}
+
+// Main area of home page
+.jumbotron {
+  background-color: lighten($light-blue, 50%);
+
+  h1 {
+    color: $primary-color;
+    font-size: 2.5em;
+    font-weight: 500;
+
+  }
+}
+
+// Text on main area of home page
+.greeting {
+  padding-top: 2em;
+  padding-bottom: 3em;
+
+  .card {
+    margin-top: 2em;
+    background-color: white;
+    border: dashed 1px $primary-color;
+
+    .card-header {
+      h5 {
+        a {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+// Hours list
+.card-body ul {
+  list-style-type: none;
+}
+
+// Quote
+blockquote {
+  padding-bottom: 1.2em;
+
+  .blockquote-footer {
+    color: black;
+    font-size: 1em;
+
+    .cite { // Quote citation
+      padding-bottom: 2em;
+      @extend .blockquote-footer
+    }
+  }
+};
+
+// Quote text
+.mb-0 {
+  font-size: 1.1em;
+  color: white;
+}
+
+// Buttons on home page
+.btn {
+  background-color: $primary-color;
+  border: white;
+  color: white;
+}
+
+.btn:hover {
+  background-color: darken($primary-color, 40%);
+  color: white;
+}
+
+.btn:active {
+  background-color: lighten(black, 20%);
+  border: black;
+}
+
+// Space under email submit
+.row {
+  padding-bottom: 2em;
+}
+
+// Image carousels
+.images {
+  padding-bottom: 2em;
+
+  h2 {
+    text-align: center;
+    color: white;
+  }
+}
+
+// Copyright
+.copy {
+  padding-top: 1.5em;
+  text-align: center;
+  color: black;
+}
+
+// END HOME PAGE STYLES -------
