@@ -48,6 +48,11 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+/* CONTACT PAGE */
+  .contact-text {
+    color: #af1615 !important;
+  }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -130,7 +135,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: pink;
+  color: #af1615;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -7216,7 +7221,7 @@ form p {
   color: white; }
 
 .jumbotron p {
-  text-align: left;
+  text-align: center;
   font-size: 1.1em;
   color: #af1615; }
 
