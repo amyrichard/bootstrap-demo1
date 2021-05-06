@@ -7277,3 +7277,10 @@ blockquote {
   padding-top: 1.5em;
   text-align: center;
   color: black; }
+
+.menu-boxes {
+  padding: 3em;
+  background-image: linear-gradient(to right, #DD1C1A, #F0C808);
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif; }

@@ -8,6 +8,7 @@ $secondary-color: #F0C808;
 $almost-white:#F2F4F3;
 $dark-blue: #086788;
 $light-blue: #06AED5;
+$dark-green:#234c2a;
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
 
@@ -158,3 +159,10 @@ blockquote {
 }
 
 // END HOME PAGE STYLES -------
+.menu-boxes {
+  padding: 3em;
+  background-image: linear-gradient(to right, $primary-color, $secondary-color);
+  color: black;
+  text-align: center;
+  font-family: $font-headings;
+}
