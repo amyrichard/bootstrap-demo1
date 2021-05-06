@@ -11,7 +11,7 @@ $light-blue: #06AED5;
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
 
-// 3. Adding a mixin to deal with hovers, changing color and font size
+//  Mixin to deal with nav hovers, changing color and font size
 @mixin hoverChange ($color){
   font-size: 110%;
   color: $color;
@@ -23,7 +23,6 @@ body {
   font-family: $font-body;
 }
 
-//2. Nesting
 .nav {
     background: $primary-color;
   a{
@@ -39,9 +38,13 @@ h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: $font-headings;
 }
-.dogs-list {
-  border: 2px solid black;
+.panel-title a{
+  color:$dark-blue;
 }
+.panel-title a:hover{
+  color:$light-blue;
+}
+
 
 // HOME PAGE STYLES  --------
 // Newsletter signup
