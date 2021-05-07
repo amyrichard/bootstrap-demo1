@@ -7203,12 +7203,6 @@ h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: Arial, sans-serif; }
 
-.panel-title a {
-  color: #086788; }
-
-.panel-title a:hover {
-  color: #06AED5; }
-
 form p {
   text-align: left;
   font-size: 1.5em;
@@ -7277,3 +7271,29 @@ blockquote {
   padding-top: 1.5em;
   text-align: center;
   color: black; }
+
+.panel-title a {
+  color: #F0C808; }
+
+.panel-title a:hover {
+  color: white; }
+
+.menu-boxes {
+  background-image: linear-gradient(to right, #DD1C1A, black);
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-family: Arial, sans-serif; }
+
+#menu-body {
+  background: black; }
+
+#menu-body .jumbotron {
+  background: #003300; }
+
+#menu-body h1 {
+  text-shadow: 2px 2px 4px #161515;
+  font-family: Arial, sans-serif; }
+
+td, th {
+  color: #F0C808; }
