@@ -7282,3 +7282,10 @@ blockquote {
 
 .card-body a {
   color: #DD1C1A; }
+
+.aboutus h5 {
+  padding-top: 2em;
+  text-align: center; }
+
+.aboutus p {
+  text-align: center; }
