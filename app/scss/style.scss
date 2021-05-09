@@ -8,6 +8,10 @@ $secondary-color: #F0C808;
 $almost-white:#F2F4F3;
 $dark-blue: #086788;
 $light-blue: #06AED5;
+
+$dark-brown: #3E3832;
+$tan-color: #E4E2D6;
+
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
 
@@ -18,7 +22,7 @@ $font-headings: Arial, sans-serif;
 }
 
 body {
-  background: $light-blue;
+  background: $dark-brown;
   color: black;
   font-family: $font-body;
 }
@@ -57,7 +61,7 @@ form p {
 
 // Main area of home page
 .jumbotron {
-  background-color: lighten($light-blue, 50%);
+  background-color: $tan-color;
 
   h1 {
     color: $primary-color;
@@ -154,7 +158,7 @@ blockquote {
 
 // END HOME PAGE STYLES -------
 
-// MENU STYLES 
+// MENU STYLES
 // .panel-title{
 //   border:2px solid white;
 //   border-radius:20px;
@@ -176,11 +180,11 @@ blockquote {
   font-family: $font-headings;
 }
 #menu-body{
-  background:black;
+  background:$dark-brown;
 }
-#menu-body{ 
+#menu-body{
   .jumbotron{
-  background: #003300;
+  background: $tan-color;
   }
     h1 {
       text-shadow: 2px 2px 4px #161515;
