@@ -7206,6 +7206,11 @@ h1 {
 .dogs-list {
   border: 2px solid black; }
 
+#logo {
+  height: 10em;
+  padding-left: 40%;
+  padding-top: 2em; }
+
 form p {
   text-align: left;
   font-size: 1.5em;
@@ -7239,7 +7244,7 @@ form p {
 blockquote {
   padding-bottom: 1.2em; }
   blockquote .blockquote-footer, blockquote .blockquote-footer .cite {
-    color: black;
+    color: #82100f;
     font-size: 1em; }
     blockquote .blockquote-footer .cite {
       padding-bottom: 2em; }
@@ -7273,4 +7278,7 @@ blockquote {
 .copy {
   padding-top: 1.5em;
   text-align: center;
-  color: black; }
+  color: white; }
+
+.card-body a {
+  color: #DD1C1A; }

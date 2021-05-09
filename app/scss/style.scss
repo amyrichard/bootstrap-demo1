@@ -43,7 +43,13 @@ h1 {
   border: 2px solid black;
 }
 
-// HOME PAGE STYLES  --------
+// HOME PAGE STYLES  --------------
+// Logo
+#logo {
+  height: 10em;
+  padding-left: 40%;
+  padding-top: 2em;
+}
 // Newsletter signup
 form p {
   text-align: left;
@@ -100,7 +106,7 @@ blockquote {
   padding-bottom: 1.2em;
 
   .blockquote-footer {
-    color: black;
+    color: darken($primary-color, 20%);
     font-size: 1em;
 
     .cite { // Quote citation
@@ -152,7 +158,12 @@ blockquote {
 .copy {
   padding-top: 1.5em;
   text-align: center;
-  color: black;
+  color: white;
 }
 
-// END HOME PAGE STYLES -------
+// Announcement interior link color
+.card-body a {
+  color: $primary-color;
+}
+
+// END HOME PAGE STYLES ------------
