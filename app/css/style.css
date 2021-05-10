@@ -7187,7 +7187,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  background: #06AED5;
+  background: #3E3832;
   color: black;
   font-family: Times, serif; }
 
@@ -7202,6 +7202,15 @@ body {
 h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: Arial, sans-serif; }
+
+
+.dogs-list {
+  border: 2px solid black; }
+
+#logo {
+  height: 10em;
+  padding-left: 40%;
+  padding-top: 2em; }
 
 form p {
   text-align: left;
@@ -7236,7 +7245,7 @@ form p {
 blockquote {
   padding-bottom: 1.2em; }
   blockquote .blockquote-footer, blockquote .blockquote-footer .cite {
-    color: black;
+    color: #82100f;
     font-size: 1em; }
     blockquote .blockquote-footer .cite {
       padding-bottom: 2em; }
@@ -7270,7 +7279,18 @@ blockquote {
 .copy {
   padding-top: 1.5em;
   text-align: center;
+
   color: black; }
+
+.card-body a {
+  color: #DD1C1A; }
+
+.aboutus h5 {
+  padding-top: 2em;
+  text-align: center; }
+
+.aboutus p {
+  text-align: center; }
 
 .panel-title a {
   color: #F0C808; }
@@ -7286,10 +7306,14 @@ blockquote {
   font-family: Arial, sans-serif; }
 
 #menu-body {
-  background: black; }
+  background: #3E3832; }
 
 #menu-body .jumbotron {
+  background: #E4E2D6; }
+/*
+#menu-body .jumbotron {
   background: #003300; }
+*/
 
 #menu-body h1 {
   text-shadow: 2px 2px 4px #161515;
