@@ -66,11 +66,15 @@ hr {
   height: 0;
   overflow: visible; }
 
+/* the nav header css*/
 .nav-header {
   margin-left: auto;
   padding-right: 1em;
   font-family: Arial, sans-serif;
   color: white
+}
+.phone-number {
+  text-align: center !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
