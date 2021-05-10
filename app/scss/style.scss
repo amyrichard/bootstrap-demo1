@@ -11,6 +11,9 @@ $light-blue: #06AED5;
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
 
+$dark-brown: #3E3832;
+$tan-color: #E4E2D6;
+
 // 3. Adding a mixin to deal with hovers, changing color and font size
 @mixin hoverChange ($color){
   font-size: 110%;
@@ -18,7 +21,7 @@ $font-headings: Arial, sans-serif;
 }
 
 body {
-  background: $light-blue;
+  background: $dark-brown;
   color: black;
   font-family: $font-body;
 }
@@ -177,3 +180,41 @@ blockquote {
 }
 
 // END HOME PAGE STYLES ------------
+
+// MENU STYLES
+// .panel-title{
+//   border:2px solid white;
+//   border-radius:20px;
+//   padding: 0.75em;
+// }
+
+.panel-title a{
+  color:$secondary-color;
+}
+.panel-title a:hover{
+  color:white;
+}
+
+.menu-boxes{
+  background-image: linear-gradient(to right, $primary-color, black);
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-family: $font-headings;
+}
+#menu-body{
+  background:$dark-brown;
+}
+#menu-body{
+  .jumbotron{
+  background: $tan-color;
+  }
+    h1 {
+      text-shadow: 2px 2px 4px #161515;
+      font-family: $font-headings;
+    }
+}
+
+td,th{
+  color:$secondary-color;
+}

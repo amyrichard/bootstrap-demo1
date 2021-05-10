@@ -7187,7 +7187,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  background: #06AED5;
+  background: #3E3832;
   color: black;
   font-family: Times, serif; }
 
@@ -7289,3 +7289,29 @@ blockquote {
 
 .aboutus p {
   text-align: center; }
+
+.panel-title a {
+  color: #F0C808; }
+
+.panel-title a:hover {
+  color: white; }
+
+.menu-boxes {
+  background-image: linear-gradient(to right, #DD1C1A, black);
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-family: Arial, sans-serif; }
+
+#menu-body {
+  background: #3E3832; }
+
+#menu-body .jumbotron {
+  background: #E4E2D6; }
+
+#menu-body h1 {
+  text-shadow: 2px 2px 4px #161515;
+  font-family: Arial, sans-serif; }
+
+td, th {
+  color: #F0C808; }
