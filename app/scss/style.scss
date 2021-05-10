@@ -17,8 +17,8 @@ $tan-color: #E4E2D6;
 //  Mixin to deal with nav hovers, changing color and font size
 
 @mixin hoverChange ($color){
-  font-size: 110%;
-  color: $color;
+  font-size: 2.8em;
+  color:$color;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   font-family: $font-body;
 }
 
-.nav {
+nav {
     background: $primary-color;
   a{
     color: white;
@@ -224,6 +224,33 @@ td,th{
   color:$secondary-color;
 }
 
+#menu-logo{
+  height:6em;
+  vertical-align: left;
+}
+
+#menu-body nav {
+  background: $primary-color;
+  a.nav-link{
+  color: white !important;
+  font-size: 2.5em;
+  padding-left: 1em !important;
+  padding-right: 1em;
+
+  }
+   a.nav-link:hover {
+    //calling on the mixin for hovers
+    @include hoverChange($secondary-color);
+    }
+  .active{
+    background: $dark-brown;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+}
+
 .contact-text {
   color: #af1615;
 }
+

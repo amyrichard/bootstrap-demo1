@@ -7191,12 +7191,12 @@ body {
   color: black;
   font-family: Times, serif; }
 
-.nav {
+nav {
   background: #DD1C1A; }
-  .nav a {
+  nav a {
     color: white; }
-  .nav a:hover {
-    font-size: 110%;
+  nav a:hover {
+    font-size: 2.8em;
     color: #ffff00; }
 
 h1 {
@@ -7323,6 +7323,25 @@ hr {
 
 td, th {
   color: #F0C808; }
+
+#menu-logo {
+  height: 6em;
+  vertical-align: left; }
+
+#menu-body nav {
+  background: #DD1C1A; }
+  #menu-body nav a.nav-link {
+    color: white !important;
+    font-size: 2.5em;
+    padding-left: 1em !important;
+    padding-right: 1em; }
+  #menu-body nav a.nav-link:hover {
+    font-size: 2.8em;
+    color: #F0C808; }
+  #menu-body nav .active {
+    background: #3E3832;
+    border: 1px solid white;
+    border-radius: 5px; }
 
 .contact-text {
   color: #af1615; }
