@@ -7326,7 +7326,8 @@ td, th {
 
 #menu-logo {
   height: 6em;
-  vertical-align: left; }
+  vertical-align: left;
+}
 
 #menu-body nav {
   background: #DD1C1A; }
