@@ -14,7 +14,8 @@ $font-headings: Arial, sans-serif;
 $dark-brown: #3E3832;
 $tan-color: #E4E2D6;
 
-// 3. Adding a mixin to deal with hovers, changing color and font size
+//  Mixin to deal with nav hovers, changing color and font size
+
 @mixin hoverChange ($color){
   font-size: 110%;
   color: $color;
@@ -26,7 +27,6 @@ body {
   font-family: $font-body;
 }
 
-//2. Nesting
 .nav {
     background: $primary-color;
   a{
@@ -42,9 +42,7 @@ h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: $font-headings;
 }
-.dogs-list {
-  border: 2px solid black;
-}
+
 
 // HOME PAGE STYLES  --------------
 // Logo
@@ -203,7 +201,7 @@ blockquote {
   font-family: $font-headings;
 }
 #menu-body{
-  background:$dark-brown;
+  background: $dark-brown;
 }
 #menu-body{
   .jumbotron{
@@ -215,6 +213,41 @@ blockquote {
     }
 }
 
+/*
+// MENU STYLES 
+// .panel-title{
+//   border:2px solid white;
+//   border-radius:20px;
+//   padding: 0.75em;
+// }
+
+.panel-title a{
+  color:$secondary-color;
+}
+.panel-title a:hover{
+  color:white;
+}
+
+.menu-boxes{
+  background-image: linear-gradient(to right, $primary-color, black);
+  color: white;
+  padding: 2em;
+  text-align: center;
+  font-family: $font-headings;
+}
+#menu-body{
+  background:black;
+}
+#menu-body{ 
+  .jumbotron{
+  background: #003300;
+  }
+    h1 {
+      text-shadow: 2px 2px 4px #161515;
+      font-family: $font-headings;
+    }
+}
+*/
 td,th{
   color:$secondary-color;
 }
