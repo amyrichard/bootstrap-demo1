@@ -7320,3 +7320,9 @@ td, th {
 hr {
   border: 2px solid black;
   border-radius: 12px; }
+
+td, th {
+  color: #F0C808; }
+
+.contact-text {
+  color: #af1615; }
