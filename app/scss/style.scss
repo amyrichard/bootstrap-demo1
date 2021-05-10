@@ -67,7 +67,7 @@ form p {
 
 // Main area of home page
 .jumbotron {
-  background-color: lighten($light-blue, 50%);
+  background-color: $tan-color;
 
   h1 {
     color: $primary-color;
