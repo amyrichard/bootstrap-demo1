@@ -7287,6 +7287,10 @@ blockquote {
 .aboutus p {
   text-align: center; }
 
+.panel-title {
+  padding-top: 1em;
+  font-weight: bold; }
+
 .panel-title a {
   color: #F0C808; }
 
@@ -7294,7 +7298,7 @@ blockquote {
   color: white; }
 
 .menu-boxes {
-  background-image: linear-gradient(to right, #DD1C1A, black);
+  background: #3E3832;
   color: white;
   padding: 2em;
   text-align: center;
@@ -7310,40 +7314,9 @@ blockquote {
   text-shadow: 2px 2px 4px #161515;
   font-family: Arial, sans-serif; }
 
-/*
-// MENU STYLES 
-// .panel-title{
-//   border:2px solid white;
-//   border-radius:20px;
-//   padding: 0.75em;
-// }
-
-.panel-title a{
-  color:$secondary-color;
-}
-.panel-title a:hover{
-  color:white;
-}
-
-.menu-boxes{
-  background-image: linear-gradient(to right, $primary-color, black);
-  color: white;
-  padding: 2em;
-  text-align: center;
-  font-family: $font-headings;
-}
-#menu-body{
-  background:black;
-}
-#menu-body{ 
-  .jumbotron{
-  background: #003300;
-  }
-    h1 {
-      text-shadow: 2px 2px 4px #161515;
-      font-family: $font-headings;
-    }
-}
-*/
 td, th {
   color: #F0C808; }
+
+hr {
+  border: 2px solid black;
+  border-radius: 12px; }
