@@ -130,7 +130,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: pink;
+  color: #af1615;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
@@ -184,7 +184,9 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  color: #af1615;
+}
 
 button {
   border-radius: 0; }
@@ -2986,6 +2988,7 @@ input[type="button"].btn-block {
   list-style: none; }
 
 .nav-link {
+
   display: block;
   padding: 0.5rem 1rem; }
   .nav-link:hover, .nav-link:focus {
@@ -2998,6 +3001,7 @@ input[type="button"].btn-block {
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-link {
+    float: right;
     margin-bottom: -1px;
     border: 1px solid transparent;
     border-top-left-radius: 0.25rem;
@@ -7187,7 +7191,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 body {
-  background: #06AED5;
+  background: #3E3832;
   color: black;
   font-family: Times, serif; }
 
@@ -7214,7 +7218,7 @@ form p {
   color: #af1615; }
 
 .jumbotron {
-  background-color: #dcf8fe; }
+  background-color: #E4E2D6; }
   .jumbotron h1 {
     color: #DD1C1A;
     font-size: 2.5em;
