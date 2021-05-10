@@ -7343,5 +7343,9 @@ td, th {
     border: 1px solid white;
     border-radius: 5px; }
 
+footer a.nav-link {
+  background: #DD1C1A;
+  color: white; }
+
 .contact-text {
   color: #af1615; }
