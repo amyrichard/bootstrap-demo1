@@ -194,18 +194,21 @@ blockquote {
 }
 
 .menu-boxes{
-  background:$dark-brown;
+  background-color:$dark-brown;
   color: white;
   padding: 2em;
   text-align: center;
   font-family: $font-headings;
+  border: 1px solid $dark-brown;
+  border-radius: 5px;
 }
 #menu-body{
   background: $dark-brown;
 }
 #menu-body{
   .jumbotron{
-  background: $tan-color;
+  // background: $tan-color;
+  background-image: url(../images/brick-wall-transparent.png);
   }
     h1 {
       text-shadow: 2px 2px 4px #161515;
@@ -217,9 +220,10 @@ td,th{
   color:$secondary-color;
 }
 hr{
-  border:2px solid black;
+  border:3px solid black;
   border-radius: 12px;
 }
+
 
 td,th{
   color:$secondary-color;

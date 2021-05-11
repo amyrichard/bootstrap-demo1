@@ -7299,17 +7299,19 @@ blockquote {
   color: white; }
 
 .menu-boxes {
-  background: #3E3832;
+  background-color: #3E3832;
   color: white;
   padding: 2em;
   text-align: center;
-  font-family: Arial, sans-serif; }
+  font-family: Arial, sans-serif;
+  border: 1px solid #3E3832;
+  border-radius: 5px; }
 
 #menu-body {
   background: #3E3832; }
 
 #menu-body .jumbotron {
-  background: #E4E2D6; }
+  background-image: url(../images/brick-wall-transparent.png); }
 
 #menu-body h1 {
   text-shadow: 2px 2px 4px #161515;
@@ -7319,7 +7321,7 @@ td, th {
   color: #F0C808; }
 
 hr {
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 12px; }
 
 td, th {
