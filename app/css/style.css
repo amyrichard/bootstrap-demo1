@@ -7191,22 +7191,17 @@ body {
   color: black;
   font-family: Times, serif; }
 
-.nav {
+nav {
   background: #DD1C1A; }
-  .nav a {
+  nav a {
     color: white; }
-  .nav a:hover {
-    font-size: 110%;
+  nav a:hover {
+    font-size: 2.6em;
     color: #ffff00; }
 
 h1 {
   text-shadow: 2px 2px 4px #bfbfbf;
   font-family: Arial, sans-serif; }
-
-#logo {
-  height: 10em;
-  padding-left: 40%;
-  padding-top: 2em; }
 
 form p {
   text-align: left;
@@ -7287,66 +7282,63 @@ blockquote {
 .aboutus p {
   text-align: center; }
 
-.panel-title a {
-  color: #F0C808; }
-
-.panel-title a:hover {
-  color: white; }
+.panel-title {
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: 2em; }
+  .panel-title a {
+    color: #F0C808; }
+  .panel-title a:hover {
+    color: white; }
 
 .menu-boxes {
-  background-image: linear-gradient(to right, #DD1C1A, black);
-  color: white;
+  background-color: #3E3832;
   padding: 2em;
   text-align: center;
-  font-family: Arial, sans-serif; }
-
-#menu-body {
-  background: #3E3832; }
+  font-family: Arial, sans-serif;
+  border: 1px solid #3E3832;
+  border-radius: 5px; }
 
 #menu-body .jumbotron {
-  background: #E4E2D6; }
+  background-image: url(../images/brick-wall-transparent.png); }
 
 #menu-body h1 {
   text-shadow: 2px 2px 4px #161515;
   font-family: Arial, sans-serif; }
 
-/*
-// MENU STYLES
-// .panel-title{
-//   border:2px solid white;
-//   border-radius:20px;
-//   padding: 0.75em;
-// }
-
-.panel-title a{
-  color:$secondary-color;
-}
-.panel-title a:hover{
-  color:white;
-}
-
-.menu-boxes{
-  background-image: linear-gradient(to right, $primary-color, black);
-  color: white;
-  padding: 2em;
-  text-align: center;
-  font-family: $font-headings;
-}
-#menu-body{
-  background:black;
-}
-#menu-body{
-  .jumbotron{
-  background: #003300;
-  }
-    h1 {
-      text-shadow: 2px 2px 4px #161515;
-      font-family: $font-headings;
-    }
-}
-*/
 td, th {
   color: #F0C808; }
+
+hr {
+  border: 3px solid black;
+  border-radius: 12px; }
+
+#menu-title {
+  font-size: 4em; }
+
+#menu-logo {
+  height: 6em;
+  vertical-align: left;
+  margin-right: 1em; }
+
+nav {
+  background: #DD1C1A; }
+  nav a.nav-link {
+    color: white !important;
+    font-size: 2.5em;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+  nav a.nav-link:hover {
+    font-size: 2.6em;
+    color: #F0C808; }
+  nav .active {
+    background: #3E3832;
+    border: 1px solid white;
+    border-radius: 8px; }
+
+footer a.nav-link {
+  background: #DD1C1A;
+  color: white; }
 
 .contact-text {
   color: #af1615; }

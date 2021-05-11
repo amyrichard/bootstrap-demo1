@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weiner Works Home</title>
-  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="app/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -16,26 +17,41 @@
 </head>
 <body>
   <header>
-    <nav>
-      <ul class="nav nav-tabs">
-        <li class="nav-item-active">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      <img id = "logo" src = "images/WW_Logo.png" alt = "Logo">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-md">
+       <p class="navbar-brand" href="#">
+         <img id = "menu-logo" src = "app/images/WW_Logo.png" alt = "Logo" >
+       </p>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
     </nav>
   </header>
 
   <main class = "container">
   <section class = "greeting">
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
-      <div class="jumbotron" style = "background-image: url(images/beer.jpg);">
+      <div class="jumbotron">
         <h1 class="display-3">Welcome to Weiner Works!</h1>
         <p class="lead">We are a casual joint known for our hot dogs and comfortable atmosphere.</p>
         <hr class="my-2">
@@ -108,13 +124,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/WW_int1.jpg" class="d-block w-100" alt="Restaurant Interior">
+            <img src="app/images/WW_int1.jpg" class="d-block w-100" alt="Restaurant Interior">
           </div>
           <div class="carousel-item">
-            <img src="images/WW_int2.jpg" class="d-block w-100" alt="Restaurant Interior">
+            <img src="app/images/WW_int2.jpg" class="d-block w-100" alt="Restaurant Interior">
           </div>
           <div class="carousel-item">
-            <img src="images/WW_int3.jpg" class="d-block w-100" alt="Restaurant Interior">
+            <img src="app/images/WW_int3.jpg" class="d-block w-100" alt="Restaurant Interior">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -138,13 +154,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/WW_1.jpg" class="d-block w-100" alt="Hot Dog and Fries">
+            <img src="app/images/WW_1.jpg" class="d-block w-100" alt="Hot Dog and Fries">
           </div>
           <div class="carousel-item">
-            <img src="images/WW_2.jpg" class="d-block w-100" alt="Hot Dog and Fries">
+            <img src="app/images/WW_2.jpg" class="d-block w-100" alt="Hot Dog and Fries">
           </div>
           <div class="carousel-item">
-            <img src="images/WW_3.jpg" class="d-block w-100" alt="Hot Dog and Fries">
+            <img src="app/images/WW_3.jpg" class="d-block w-100" alt="Hot Dog and Fries">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -205,9 +221,9 @@
     </div>
   </footer>
   <script>$('#carouselExampleIndicators, #carouselExampleIndicators2').carousel();</script>
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/popper.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
+  <script src="app/js/jquery.min.js"></script>
+  <script src="app/js/popper.min.js"></script>
+  <script src="app/js/bootstrap.min.js"></script>
   </main>
 </body>
 </html>

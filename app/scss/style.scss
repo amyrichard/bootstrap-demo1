@@ -17,8 +17,8 @@ $tan-color: #E4E2D6;
 //  Mixin to deal with nav hovers, changing color and font size
 
 @mixin hoverChange ($color){
-  font-size: 110%;
-  color: $color;
+  font-size: 2.6em;
+  color:$color;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   font-family: $font-body;
 }
 
-.nav {
+nav {
     background: $primary-color;
   a{
     color: white;
@@ -46,11 +46,11 @@ h1 {
 
 // HOME PAGE STYLES  --------------
 // Logo
-#logo {
-  height: 10em;
-  padding-left: 40%;
-  padding-top: 2em;
-}
+// #logo {
+//   height: 10em;
+//   padding-left: 40%;
+//   padding-top: 2em;
+// }
 // Newsletter signup
 form p {
   text-align: left;
@@ -179,33 +179,31 @@ blockquote {
 
 // END HOME PAGE STYLES ------------
 
-// MENU STYLES
-// .panel-title{
-//   border:2px solid white;
-//   border-radius:20px;
-//   padding: 0.75em;
-// }
-
-.panel-title a{
-  color:$secondary-color;
-}
-.panel-title a:hover{
-  color:white;
+// -----BEGIN MENU STYLES -----
+.panel-title{
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: 2em;
+   a{
+    color:$secondary-color;
+  }
+  a:hover{
+    color:white;
+  }
 }
 
 .menu-boxes{
-  background-image: linear-gradient(to right, $primary-color, black);
-  color: white;
+  background-color:$dark-brown;
   padding: 2em;
   text-align: center;
   font-family: $font-headings;
+  border: 1px solid $dark-brown;
+  border-radius: 5px;
 }
-#menu-body{
-  background: $dark-brown;
-}
+
 #menu-body{
   .jumbotron{
-  background: $tan-color;
+  background-image: url(../images/brick-wall-transparent.png);
   }
     h1 {
       text-shadow: 2px 2px 4px #161515;
@@ -213,45 +211,52 @@ blockquote {
     }
 }
 
-/*
-// MENU STYLES
-// .panel-title{
-//   border:2px solid white;
-//   border-radius:20px;
-//   padding: 0.75em;
-// }
-
-.panel-title a{
-  color:$secondary-color;
-}
-.panel-title a:hover{
-  color:white;
-}
-
-.menu-boxes{
-  background-image: linear-gradient(to right, $primary-color, black);
-  color: white;
-  padding: 2em;
-  text-align: center;
-  font-family: $font-headings;
-}
-#menu-body{
-  background:black;
-}
-#menu-body{
-  .jumbotron{
-  background: #003300;
-  }
-    h1 {
-      text-shadow: 2px 2px 4px #161515;
-      font-family: $font-headings;
-    }
-}
-*/
 td,th{
   color:$secondary-color;
+}
+hr{
+  border:3px solid black;
+  border-radius: 12px;
+}
+
+#menu-title{
+  font-size: 4em;
+}
+
+#menu-logo{
+  height:6em;
+  vertical-align: left;
+  margin-right: 1em;
+}
+//------Nav Styles--------
+
+ nav {
+  background: $primary-color;
+  a.nav-link{
+  color: white !important;
+  font-size: 2.5em;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+
+  }
+   a.nav-link:hover {
+    //calling on the mixin for hovers
+    @include hoverChange($secondary-color);
+    }
+  .active{
+    background: $dark-brown;
+    border: 1px solid white;
+    border-radius: 8px;
+  }
+
+}
+footer a.nav-link{
+  background:$primary-color;
+  color:white;
+
 }
 
 .contact-text {
   color: #af1615;
 }
+
