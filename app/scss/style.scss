@@ -17,7 +17,7 @@ $tan-color: #E4E2D6;
 //  Mixin to deal with nav hovers, changing color and font size
 
 @mixin hoverChange ($color){
-  font-size: 2.8em;
+  font-size: 2.6em;
   color:$color;
 }
 
@@ -46,11 +46,11 @@ h1 {
 
 // HOME PAGE STYLES  --------------
 // Logo
-#logo {
-  height: 10em;
-  padding-left: 40%;
-  padding-top: 2em;
-}
+// #logo {
+//   height: 10em;
+//   padding-left: 40%;
+//   padding-top: 2em;
+// }
 // Newsletter signup
 form p {
   text-align: left;
@@ -179,35 +179,30 @@ blockquote {
 
 // END HOME PAGE STYLES ------------
 
-// MENU STYLES -----
+// -----BEGIN MENU STYLES -----
 .panel-title{
   padding-top: 1em;
   font-weight: bold;
   font-size: 2em;
-}
-
-.panel-title a{
-  color:$secondary-color;
-}
-.panel-title a:hover{
-  color:white;
+   a{
+    color:$secondary-color;
+  }
+  a:hover{
+    color:white;
+  }
 }
 
 .menu-boxes{
   background-color:$dark-brown;
-  color: white;
   padding: 2em;
   text-align: center;
   font-family: $font-headings;
   border: 1px solid $dark-brown;
   border-radius: 5px;
 }
-#menu-body{
-  background: $dark-brown;
-}
+
 #menu-body{
   .jumbotron{
-  // background: $tan-color;
   background-image: url(../images/brick-wall-transparent.png);
   }
     h1 {
@@ -224,27 +219,24 @@ hr{
   border-radius: 12px;
 }
 
-
-td,th{
-  color:$secondary-color;
+#menu-title{
+  font-size: 4em;
 }
 
 #menu-logo{
   height:6em;
   vertical-align: left;
+  margin-right: 1em;
 }
+//------Nav Styles--------
 
-#menu-title{
-  font-size: 4em;
-}
-
-#menu-body nav {
+ nav {
   background: $primary-color;
   a.nav-link{
   color: white !important;
   font-size: 2.5em;
   padding-left: 1em !important;
-  padding-right: 1em;
+  padding-right: 1em !important;
 
   }
    a.nav-link:hover {
@@ -254,7 +246,7 @@ td,th{
   .active{
     background: $dark-brown;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 8px;
   }
 
 }
