@@ -183,6 +183,7 @@ blockquote {
 .panel-title{
   padding-top: 1em;
   font-weight: bold;
+  font-size: 2em;
 }
 
 .panel-title a{
@@ -227,6 +228,10 @@ td,th{
 #menu-logo{
   height:6em;
   vertical-align: left;
+}
+
+#menu-title{
+  font-size: 4em;
 }
 
 #menu-body nav {
