@@ -5,22 +5,45 @@
     <title>Menu</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body id="menu-body">
     <header>
-      <nav>
-        <ul class="nav nav-tabs">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item-active">
-            <a class="nav-link active" href="menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-md">
+         <p class="navbar-brand" href="#">
+           <img id = "menu-logo" src = "app/images/WW_Logo.png" alt = "Logo" >
+         </p>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
       </nav>
     </header>
 
@@ -28,7 +51,6 @@
     <section class = "greeting">
       <div class="shadow-lg p-3 mb-5 bg-white rounded">
         <div class="jumbotron">
-          <h1 class="display-3">Weinerworks Menu</h1>
 
   <!-- Collapsing Menus -->
 
@@ -40,7 +62,8 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" href="#collapse1">Beer Steamed All Beef Hot Dogs</a>
+                  <a data-toggle="collapse" href="#collapse1">Beer Steamed All Beef Hot Dogs
+                  <i class="fas fa-arrow-alt-circle-down"></i></a>
                 </h4>
               </div>
               <div id="collapse1" class="panel-collapse collapse">
@@ -115,7 +138,9 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" href="#collapse2">Bagel Dogs</a>
+                  <a data-toggle="collapse" href="#collapse2">Bagel Dogs
+                    <i class="fas fa-arrow-alt-circle-down"></i>
+                  </a>
                 </h4>
               </div>
               <div id="collapse2" class="panel-collapse collapse">
@@ -160,7 +185,9 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" href="#collapse4">Gutbuster Sausages</a>
+                  <a data-toggle="collapse" href="#collapse4">Gutbuster Sausages
+                    <i class="fas fa-arrow-alt-circle-down"></i>
+                  </a>
                 </h4>
               </div>
               <div id="collapse4" class="panel-collapse collapse">
@@ -191,144 +218,19 @@
       </div> <!--close row -->
     </div> <!--close container-->
     <!--end of first row menu -->
-<!-- 
-      <div class="panel-group">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" href="#collapse1">Beer Steamed All Beef Hot Dogs</a>
-            </h4>
-          </div>
-        <div id="collapse1" class="panel-collapse collapse">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1. Plain Dog</td>
-                <td>$6.09</td>
-              </tr>
-              <tr>
-                <td>2. Mustard Dog</td>
-                <td>$6.09</td>
-              </tr>
-              <tr>
-                <td>3. Mustard and Relish Dog</td>
-                <td>$6.29</td>
-              </tr>
-                <td>4. Mustard, Relish, Onion, and Tomato Dog</td>
-                <td>$7.15</td>
-            </tr>
-            <tr>
-              <td>5. Mustard and Onion Dog</td>
-              <td>$6.29</td>
-            </tr>
-            <tr>
-              <td>6. Chili Dog</td>
-              <td>$7.10</td>
-            </tr>
-            <tr>
-              <td>7. Chili and Onion Dog</td>
-              <td>$7.20</td>
-            </tr>
-            <tr>
-              <td>8. Chili and Cheese Dog</td>
-              <td>$7.65</td>
-            </tr>
-              <td>9. Chili, Cheese, and Onion Dog</td>
-              <td>$7.80</td>
-          </tr>
-          <tr>
-            <td>10. Kraut Dog</td>
-            <td>$7.10</td>
-          </tr>
-          <tr>
-            <td>11. Kraut and Cheese Dog</td>
-            <td>$7.65</td>
-          </tr>
-          <tr>
-            <td>12. Red Cabbage Dog</td>
-            <td>$7.00</td>
-          </tr>
-          <tr>
-            <td>13. Red Cabbage and Cheese Dog</td>
-            <td>$7.55</td>
-          </tr>
-            <td>14. Cheese and Tomato Dog</td>
-            <td>$7.40</td>
-        </tr>
-        <tr>
-          <td>15. Coleslaw and Cheese Dog</td>
-          <td>$7.49</td>
-        </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div> -->
+    <hr>
 
-    <!-- <div class="panel-group">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2">Bagel Dogs</a>
-          </h4>
-        </div>
-      <div id="collapse2" class="panel-collapse collapse">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>16. Plain Bagel Dog</td>
-              <td>$6.74</td>
-            </tr>
-            <tr>
-              <td>17. Mustard Bagel Dog</td>
-              <td>$6.74</td>
-            </tr>
-            <tr>
-              <td>18. Mustard, Relish, Onion, and Tomato Bagel Dog</td>
-              <td>$7.65</td>
-            </tr>
-              <td>19. Chili Bagel Dog</td>
-              <td>$7.60</td>
-          </tr>
-          <tr>
-            <td>20. Chili and Cheese Bagel Dog</td>
-            <td>$7.90</td>
-          </tr>
-          <tr>
-            <td>21. Chili, Cheese, and Onion Bagel Dog</td>
-            <td>$7.99</td>
-          </tr>
-          <tr>
-            <td>22. Cheese and Tomato Bagel Dog</td>
-            <td>$7.69</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div> -->
-  
   <!-- Separate row for Wonder Dog -->
   <div class="container menu-boxes">
     <div class="row align-items-center">
-      <div class="col-6 offset-3">
+      <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12">
         <div class="panel-group">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a data-toggle="collapse" href="#collapse3">Wonder Dogs - 14" Dogs Served on a Loaf of Soft French Bread</a>
+                <a data-toggle="collapse" href="#collapse3">Wonder Dogs - 14" Dogs Served on a Loaf of Soft French Bread
+                  <i class="fas fa-arrow-alt-circle-down"></i>
+                </a>
               </h4>
             </div>
             <div id="collapse3" class="panel-collapse collapse">
@@ -396,9 +298,10 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </div> <!--end Wonder Dog row -->
+  <hr>
 
 <!-- Start Third Row menu -->
 <div class="container menu-boxes">
@@ -408,7 +311,9 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" href="#collapse5">Hot and Spicy Polish Sausages</a>
+              <a data-toggle="collapse" href="#collapse5">Hot and Spicy Polish Sausages
+                <i class="fas fa-arrow-alt-circle-down"></i>
+              </a>
             </h4>
           </div>
           <div id="collapse5" class="panel-collapse collapse">
@@ -437,7 +342,9 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" href="#collapse6">German Sausages</a>
+              <a data-toggle="collapse" href="#collapse6">German Sausages
+                <i class="fas fa-arrow-alt-circle-down"></i>
+              </a>
             </h4>
           </div>
           <div id="collapse6" class="panel-collapse collapse">
@@ -470,7 +377,9 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a data-toggle="collapse" href="#collapse8">Burger Combos - Served with fries and a 24 oz soda</a>
+                <a data-toggle="collapse" href="#collapse8">Burger Combos - Served with fries and a 24 oz soda
+                  <i class="fas fa-arrow-alt-circle-down"></i>
+                </a>
               </h4>
             </div>
             <div id="collapse8" class="panel-collapse collapse">
@@ -497,10 +406,11 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
   </div>
-</div> 
+</div>
 <!-- end third row menu  -->
+<hr>
 
 <!-- Start Fourth Row -->
 <div class="container menu-boxes">
@@ -510,18 +420,13 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
-                <a data-toggle="collapse" href="#collapse7">Burgers</a>
+                <a data-toggle="collapse" href="#collapse7">Burgers
+                  <i class="fas fa-arrow-alt-circle-down"></i>
+                </a>
               </h4>
             </div>
             <div id="collapse7" class="panel-collapse collapse">
               <table class="table">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Includes</th>
-                    <th>Price</th>
-                  </tr>
-                </thead>
                 <tbody>
                   <tr>
                     <td>1/3 lb Burger</td>
@@ -569,7 +474,9 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" href="#collapse9">Sides</a>
+                  <a data-toggle="collapse" href="#collapse9">Sides
+                    <i class="fas fa-arrow-alt-circle-down"></i>
+                  </a>
                 </h4>
               </div>
             <div id="collapse9" class="panel-collapse collapse">
@@ -602,7 +509,9 @@
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                  <a data-toggle="collapse" href="#collapse10">Drinks</a>
+                  <a data-toggle="collapse" href="#collapse10">Drinks
+                    <i class="fas fa-arrow-alt-circle-down"></i>
+                  </a>
                 </h4>
               </div>
             <div id="collapse10" class="panel-collapse collapse">
@@ -654,9 +563,9 @@
       </div>
     </footer>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/popper.min.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
     </main>
   </body>
   </html>
