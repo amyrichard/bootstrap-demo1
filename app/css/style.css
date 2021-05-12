@@ -7204,6 +7204,7 @@ h1 {
   font-family: Arial, sans-serif; }
 
 form p {
+  font-family: Arial, sans-serif;
   text-align: left;
   font-size: 1.5em;
   color: white; }
@@ -7214,6 +7215,7 @@ form p {
   color: #af1615; }
 
 .jumbotron {
+  font-family: Arial, sans-serif;
   background-color: #E4E2D6; }
   .jumbotron h1 {
     color: #DD1C1A;
@@ -7228,6 +7230,7 @@ form p {
     background-color: white;
     border: dashed 1px #DD1C1A; }
     .greeting .card .card-header h5 a {
+      font-family: Arial, sans-serif;
       color: #DD1C1A; }
 
 .card-body ul {
@@ -7264,6 +7267,7 @@ blockquote {
 .images {
   padding-bottom: 2em; }
   .images h2 {
+    font-family: Arial, sans-serif;
     text-align: center;
     color: white; }
 
@@ -7276,6 +7280,7 @@ blockquote {
   color: #DD1C1A; }
 
 .aboutus h5 {
+  font-family: Arial, sans-serif;
   padding-top: 2em;
   text-align: center; }
 
