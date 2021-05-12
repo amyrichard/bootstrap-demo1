@@ -7242,6 +7242,7 @@ blockquote {
     color: #82100f;
     font-size: 1em; }
     blockquote .blockquote-footer .cite {
+      color: white;
       padding-bottom: 2em; }
 
 .mb-0 {
