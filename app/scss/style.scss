@@ -107,7 +107,7 @@ blockquote {
     font-size: 1em;
 
     .cite { // Quote citation
-      color: white;
+      color: #{$almost-white};
       padding-bottom: 2em;
       @extend .blockquote-footer
     }
