@@ -16,6 +16,7 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+  <!-- Nav bar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-md">
@@ -45,7 +46,9 @@
      </div>
     </nav>
   </header>
+  <!-- End nav bar -->
 
+  <!-- Main home page info -->
   <main class = "container">
   <section class = "greeting">
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
@@ -55,10 +58,15 @@
         <hr class="my-2">
         <p>We are located at <strong>5207 Madison Ave., Sacramento, CA 95841.</strong> We look forward to seeing you!</p>
         <br />
+        
+        <!-- Buttons -->
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="menu.html" role="button">Check out our menu!</a>
           <a class="btn btn-primary btn-lg" href="https://www.grubhub.com/restaurant/wiener-works-5207-madison-ave-ste-c-sacramento/383533" role="button">Order on GrubHub!</a>
         </p>
+        <!-- End buttons -->
+        
+        <!-- Announcement dropdowns -->
         <div id="accordion" role="tablist">
           <div class="card">
             <div class="card-header" role="tab" id="headingOne">
@@ -100,15 +108,21 @@
           </div>
         </div>
       </div>
+      <!-- End announcement dropdowns -->
+
+      <!-- About information -->
       <div class = "aboutus">
         <h5><strong>About Us</strong></h5>
         <p>Our staff works diligently to provide our customers with delicious, perfectly-cooked
         hot dogs, along with other tasty menu items. Come on in and try them out!</p>
       </div>
+      <!-- End about information -->
      </div>
     </div>
    </section>
+   <!-- End main home page info -->
 
+   <!-- Image carousels -->
    <section class = "images">
     <div class = "row">
       <div class = "col-md">
@@ -172,14 +186,18 @@
      </div>
     </div>
    </section>
+   <!-- End image carousels -->
 
+  <!-- Quote -->
   <blockquote class="blockquote">
     <p class="mb-0">We strive to bring our customers the best hot dogs around!</p>
     <footer class="blockquote-footer">
       <cite title="Source Title">Weiner Works Owner</cite>
     </footer>
   </blockquote>
-
+  <!-- End quote -->
+  
+  <!-- Footer -->
   <footer>
     <form>
       <p>Sign up for our newsletter!</p>
@@ -199,7 +217,6 @@
         <li class="nav-item">
           <a class="nav-link" href="https://www.grubhub.com/restaurant/wiener-works-5207-madison-ave-ste-c-sacramento/383533"><i class="fa fa-car fa-1x"></i></a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="https://twitter.com/wienerworks?lang=en"><i class="fab fa-twitter fa-1x"></i></a>
         </li>
@@ -219,10 +236,15 @@
       <p class = "copy">&copy; 2021 Weiner Works</p>
     </div>
   </footer>
+  <!-- End footer -->
+    
+  <!-- JS -->
   <script>$('#carouselExampleIndicators, #carouselExampleIndicators2').carousel();</script>
   <script src="app/js/jquery.min.js"></script>
   <script src="app/js/popper.min.js"></script>
   <script src="app/js/bootstrap.min.js"></script>
+  <!-- End JS -->
+    
   </main>
 </body>
 </html>
