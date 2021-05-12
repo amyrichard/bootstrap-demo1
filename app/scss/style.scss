@@ -16,7 +16,7 @@ $tan-color: #E4E2D6;
 //  Mixin to deal with nav hovers, changing color and font size
 @mixin hoverChange ($color){
   font-size: 2.6em;
-  color:$color;
+  color: $color;
 }
 
 body {
@@ -74,7 +74,7 @@ form p {
 
 // Text on main area of home page
 .greeting {
-  padding-top: 2em;
+  padding-top: 1em + 1em;
   padding-bottom: 3em;
 
   .card {
