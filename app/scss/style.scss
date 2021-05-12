@@ -2,7 +2,7 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-//1. Variables below
+// Variables below
 $primary-color: #DD1C1A;
 $secondary-color: #F0C808;
 $almost-white:#F2F4F3;
@@ -10,12 +10,10 @@ $dark-blue: #086788;
 $light-blue: #06AED5;
 $font-body: Times, serif;
 $font-headings: Arial, sans-serif;
-
 $dark-brown: #3E3832;
 $tan-color: #E4E2D6;
 
 //  Mixin to deal with nav hovers, changing color and font size
-
 @mixin hoverChange ($color){
   font-size: 2.6em;
   color:$color;
@@ -45,12 +43,7 @@ h1 {
 
 
 // HOME PAGE STYLES  --------------
-// Logo
-// #logo {
-//   height: 10em;
-//   padding-left: 40%;
-//   padding-top: 2em;
-// }
+
 // Newsletter signup
 form p {
   font-family: $font-headings;
@@ -220,6 +213,7 @@ blockquote {
 td,th{
   color:$secondary-color;
 }
+
 hr{
   border:3px solid black;
   border-radius: 12px;
@@ -234,18 +228,19 @@ hr{
   vertical-align: left;
   margin-right: 1em;
 }
+
 //------Nav Styles--------
 
- nav {
+nav {
   background: $primary-color;
   a.nav-link{
   color: white !important;
   font-size: 2.5em;
   padding-left: 1em !important;
   padding-right: 1em !important;
-
-  }
-   a.nav-link:hover {
+}
+  
+a.nav-link:hover {
     //calling on the mixin for hovers
     @include hoverChange($secondary-color);
     }
@@ -256,6 +251,7 @@ hr{
   }
 
 }
+
 footer a.nav-link{
   background:$primary-color;
   color:white;
